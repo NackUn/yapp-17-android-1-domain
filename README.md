@@ -34,9 +34,9 @@
 
 ### domain.Post
 
-- (__latlng__, address, __[postImage]__, content, city, createDate) 
-- [ ] 게시글 생성 및 toString 테스트
-- [ ] 게시글을 생성할 때 여러 개의 사진을 달 수 있다.
+- (__latlng__, address, __[postImage]__, content, city, color, createDate) 
+- [x] 게시글 생성 및 toString 테스트
+- [x] 게시글을 생성할 때 여러 개의 사진을 달 수 있다.
 - [ ] 사진 생성 테스트
 
 
