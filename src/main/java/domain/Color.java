@@ -20,7 +20,7 @@ public class Color {
     }
 
     private void validate(String rgb) {
-        Pattern pattern = Pattern.compile("^#[a-fA-F_0-9]X{6}$");
+        Pattern pattern = Pattern.compile("^#[a-fA-F_0-9]{6}$");
 
         Matcher matcher = pattern.matcher(rgb);
 
