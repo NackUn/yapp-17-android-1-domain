@@ -24,9 +24,9 @@
 ### domain.Color
 
 - (rgb, emotion)
-- [ ] rgb는 #으로 시작하는 숫자 6개 자리의 값을 가진다.
-    - [ ] rgb가 #으로 시작하는 숫자 6개가 아니면 예외가 발생한다.
-- [ ] Color의 emotion은 null일 수 있다.
+- [x] rgb는 #으로 시작하고 0-9, a-f, A-F 중 6개의 값을 가진다.
+    - [x] rgb가 #으로 시작하고 0-9, a-f, A-F 중 6개의 값이 아니면 예외가 발생한다.
+- [x] Color의 emotion은 null일 수 있다.
 
 ### domain.Emotion
 
